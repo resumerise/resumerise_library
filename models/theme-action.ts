@@ -1,9 +1,9 @@
-import { ResumeriseMeta } from "./schema.ts";
+import { ResumeriseMeta } from "../models/resumerise-meta.ts";
 
 export interface ThemeAction {
   render(
     jsonResume: string,
     type: string,
-  ): string | Promise<string> | void;
+  ): Promise<string>;
   get schema(): ResumeriseMeta;
 }

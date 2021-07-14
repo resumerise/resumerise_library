@@ -1,5 +1,4 @@
-import vs from "https://deno.land/x/value_schema/mod.ts";
-import { FromSchema } from "https://deno.land/x/json_schema_to_ts@v1.6.5-beta.1/index.d.ts";
+import vs from "https://deno.land/x/value_schema@v3.0.0/mod.ts";
 
 const schemaObject = {
   name: vs.string({ minLength: 2 }),
@@ -9,13 +8,6 @@ const schemaObject = {
     minLength: 3,
   }),
 };
-
-export interface ResumeriseMeta {
-  name: string;
-  colors: Array<string>;
-  tags: Array<string>;
-  description: string;
-}
 
 export const validateMeta = (metaData: string): boolean => {
   let result = false;
@@ -31,5 +23,3 @@ export const validateMeta = (metaData: string): boolean => {
   );
   return result;
 };
-
-type Resume = FromSchema<typeof schemaObject>;
