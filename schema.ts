@@ -9,6 +9,14 @@ const schemaObject = {
     minLength: 3,
   }),
 };
+
+export interface ResumeriseMeta {
+  name: string;
+  colors: Array<string>;
+  tags: Array<string>;
+  description: string;
+}
+
 export const validateMeta = (metaData: string): boolean => {
   let result = false;
   vs.applySchemaObject(
