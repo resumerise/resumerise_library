@@ -1,3 +1,6 @@
+import __ from "https://deno.land/x/dirname@1.1.2/mod.ts"
+const { __dirname } = __(import.meta);
+
 export const getDefaultResume = (): string => {
-  return Deno.readTextFileSync("./resume.json");
+  return Deno.readTextFileSync(`${__dirname}/resume.json`);
 };

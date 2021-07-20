@@ -5,5 +5,5 @@ export interface ThemeAction {
     jsonResume: string,
     type: string,
   ): Promise<string>;
-  get schema(): ResumeriseMeta;
+  getMeta(): ResumeriseMeta;
 }
