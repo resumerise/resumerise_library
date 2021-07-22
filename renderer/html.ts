@@ -1,6 +1,6 @@
 import logSymbols from "https://cdn.skypack.dev/log-symbols";
 import { DocType } from "../models/doc-type.model.ts";
-import { ThemeAction } from "../../resumerise-theme-library/mod.ts";
+import { ThemeAction } from "../models/theme-action.ts";
 
 export const compileHTML = async (
   themePath: string,
