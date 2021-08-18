@@ -1,278 +1,298 @@
 {
-  "awards" : [ {
-    "awarder" : "string",
-    
-    "date" : "2015-07-20T15:49:04-07:00",
-    
-    "summary" : "string",
-    "title" : "string"} ],
-  "basics" : {
-    
-    "email" : "jummerside@patch.com",
-    
-    "label" : "Full Stack Web Developer",
-    "location" : {
-      "address" : "3050 Hanover Plaza",
-      "city" : "San Antonio",
-      "countryCode" : "US",
-      
-      
-      "postalCode" : "12000",
-      "region" : "Colorado"},
-    "name" : "Jaimie Summerside",
-    "phone" : "391-867-0210",
-    "picture" : "http://dummyimage.com/150x150.png/ff4444/ffffff",
-    "profiles" : [ {
-      
-      
-      "network" : "LinkedIn",
-      
-      "url" : "http://ca.linkedin.com/in/jummerside",
-      "username" : "jummerside"
-    } ],
-    "summary" : "I have many years of experience in software development and support my customers in highly complex software projects.",
-    
-    "website" : "http://js-pro-developer.org"
+  "awards": [
+    {
+      "awarder": "Developer committee",
+      "date": "2015-07-20T15:49:04-07:00",
+      "summary": "He is one of the best in his class and is proficient in several programming languages. He managed to find the very biggest bug of the century and fix it on his own.",
+      "title": "Developer of the year"
+    }
+  ],
+  "basics": {
+    "email": "jummerside@patch.com",
+    "label": "Full Stack Web Developer",
+    "location": {
+      "address": "3050 Hanover Plaza",
+      "city": "San Antonio",
+      "countryCode": "US",
+      "postalCode": "12000",
+      "region": "Colorado"
+    },
+    "name": "Jaimie Summerside",
+    "phone": "391-867-0210",
+    "picture": "http://dummyimage.com/150x150.png/ff4444/ffffff",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "http://ca.linkedin.com/in/jummerside",
+        "username": "jummerside"
+      }
+    ],
+    "summary": "I have many years of experience in software development and support my customers in highly complex software projects.",
+    "website": "http://js-pro-developer.org"
   },
-  "certifications" : [ {
-    
-    
-    "issueDate" : "2015-07-20T15:49:04-07:00",
-    "issuer" : "Oracle",
-    "title" : "Oracle Certified Professional, Java EE 7 Application Developer Certification"} ],
-  
-  "education" : [ {
-    "area" : "Software Development",
-    "courses" : [ "PHP", "Java" ],
-    
-    "endDate" : "2015-07-20T15:49:04-07:00",
-    "gpa" : "2.3",
-    
-    "institution" : "University of IT",
-    "present" : false,
-    "startDate" : "2015-07-20T15:49:04-07:00",
-    "studyType" : "Master"} ],
-  
-  "interests" : [ {
-    
-    
-    "keywords" : [ "Ferrets", "Unicorns" ],
-    "name" : "Wildlife"} ],
-  "languages" : [ {
-    
-    "fluency" : "fluently",
-    
-    "language" : "German"} ],
-  
-  "picture" : "http://dummyimage.com/150x150.png/ff4444/ffffff",
-  
-  "projects" : [ {
-    "client" : "Bank of IntelliPay",
-    
-    "endDate" : "2015-07-20T15:49:04-07:00",
-    "highlights" : [ "Implemented authentication", "Integrated Serviceworker" ],
-    
-    "present" : false,
-    "products" : [ "Software Developer", "Scrum Master" ],
-    "roles" : [ "Software Developer", "Scrum Master" ],
-    "startDate" : "2015-07-20T15:49:04-07:00",
-    "summary" : "An exciting software development from the previous payment service provider.",
-    "title" : "QuickPayment Solutions",
-    
-    "website" : "http://www.intellipay-go.net"
-  } ],
-  "publications" : [ {
-    
-    
-    "name" : "Create an API in 5 easy steps.",
-    "publisher" : "IT Press",
-    "releaseDate" : "2015-07-20T15:49:04-07:00",
-    "summary" : "It has never been so easy to create an API. With this book you can do it in 7 steps.",
-    
-    "website" : "http://www.create-api-in-7-steps.net"
-  } ],
-  "references" : [ {
-    
-    
-    "name" : "CTO of MultiSoft Corp.",
-    "reference" : "He is a team player and has always behaved in an exemplary manner towards his colleagues."} ],
-  "settings" : {
-    
-    "labels" : {
-      "categoryProperty" : {
-        "award" : {
-          "awarder" : "Awarder",
-          "categoryTitle" : "Awards",
-          "date" : "Handed over on",
-          
-          "summary" : "Summary",
-          "title" : "Title"
+  "certifications": [
+    {
+      "issueDate": "2015-07-20T15:49:04-07:00",
+      "issuer": "Oracle",
+      "title": "Oracle Certified Professional, Java EE 7 Application Developer Certification"
+    }
+  ],
+  "education": [
+    {
+      "area": "Software Development",
+      "courses": [
+        "PHP",
+        "Java"
+      ],
+      "endDate": "2015-07-20T15:49:04-07:00",
+      "gpa": "2.3",
+      "institution": "University of IT",
+      "present": false,
+      "startDate": "2015-07-20T15:49:04-07:00",
+      "studyType": "Master"
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ],
+      "name": "Wildlife"
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "fluently",
+      "language": "German"
+    }
+  ],
+  "picture": "http://dummyimage.com/150x150.png/ff4444/ffffff",
+  "projects": [
+    {
+      "client": "Bank of IntelliPay",
+      "endDate": "2015-07-20T15:49:04-07:00",
+      "highlights": [
+        "Implemented authentication",
+        "Integrated Serviceworker"
+      ],
+      "present": false,
+      "products": [
+        "Software Developer",
+        "Scrum Master"
+      ],
+      "roles": [
+        "Software Developer",
+        "Scrum Master"
+      ],
+      "startDate": "2015-07-20T15:49:04-07:00",
+      "summary": "An exciting software development from the previous payment service provider.",
+      "title": "QuickPayment Solutions",
+      "website": "http://www.intellipay-go.net"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Create an API in 5 easy steps.",
+      "publisher": "IT Press",
+      "releaseDate": "2015-07-20T15:49:04-07:00",
+      "summary": "It has never been so easy to create an API. With this book you can do it in 7 steps.",
+      "website": "http://www.create-api-in-7-steps.net"
+    }
+  ],
+  "references": [
+    {
+      "name": "CTO of MultiSoft Corp.",
+      "reference": "He is a team player and has always behaved in an exemplary manner towards his colleagues."
+    }
+  ],
+  "settings": {
+    "dateFormat": "dd.mm.yyyy",
+    "labels": {
+      "categoryProperty": {
+        "award": {
+          "awarder": "Awarder",
+          "categoryTitle": "Awards",
+          "date": "Handed over on",
+          "summary": "Summary",
+          "title": "Title"
         },
-        "basics" : {
-          "categoryTitle" : "Basic information",
-          "email" : "E-Mail",
-          
-          "label" : "Job title",
-          "location" : "Location",
-          "name" : "Full name",
-          "phone" : "Phone",
-          "picture" : "Picture",
-          "profiles" : "Social profiles",
-          "summary" : "About me",
-          "website" : "Website or Blog URL"
+        "basics": {
+          "categoryTitle": "Basic information",
+          "email": "E-Mail",
+          "label": "Job title",
+          "location": "Location",
+          "name": "Full name",
+          "phone": "Phone",
+          "picture": "Picture",
+          "profiles": "Social profiles",
+          "summary": "About me",
+          "website": "Website or Blog URL"
         },
-        "certificate" : {
-          "categoryTitle" : "Certification",
-          
-          "issueDate" : "Issue date",
-          "issuer" : "Issuer",
-          "title" : "Title"
+        "certificate": {
+          "categoryTitle": "Certifications",
+          "issueDate": "Issue date",
+          "issuer": "Issuer",
+          "title": "Title"
         },
-        "education" : {
-          "area" : "Area",
-          "categoryTitle" : "Education",
-          "courses" : "Courses",
-          "gpa" : "GPA",
-          
-          "institution" : "Institution",
-          "studyType" : "Degree type"
+        "education": {
+          "area": "Area",
+          "categoryTitle": "Educations",
+          "courses": "Courses",
+          "gpa": "GPA",
+          "institution": "Institution",
+          "studyType": "Degree type"
         },
-        
-        "interest" : {
-          "categoryTitle" : "Interest",
-          
-          "keywords" : "Keywords",
-          "name" : "Name"
+        "interest": {
+          "categoryTitle": "Interests",
+          "keywords": "Keywords",
+          "name": "Name"
         },
-        "language" : {
-          "categoryTitle" : "Language",
-          
-          "level" : "Level",
-          "name" : "Name"
+        "language": {
+          "categoryTitle": "Languages",
+          "level": "Level",
+          "name": "Name"
         },
-        "location" : {
-          "address" : "Address",
-          "categoryTitle" : "Location",
-          "city" : "City",
-          "countryCode" : "Country code",
-          
-          "postalCode" : "Postal code",
-          "region" : "Region"
+        "location": {
+          "address": "Address",
+          "categoryTitle": "Location",
+          "city": "City",
+          "countryCode": "Country code",
+          "postalCode": "Postal code",
+          "region": "Region"
         },
-        "profile" : {
-          "categoryTitle" : "Profile",
-          
-          "network" : "Network",
-          "url" : "URL",
-          "username" : "Username"
+        "profile": {
+          "categoryTitle": "Profiles",
+          "network": "Network",
+          "url": "URL",
+          "username": "Username"
         },
-        "project" : {
-          "categoryTitle" : "Project",
-          "client" : "Client",
-          "endDate" : "End date",
-          "highlights" : "Highlights",
-          
-          "products" : "Products",
-          "roles" : "Roles",
-          "startDate" : "Start date",
-          "summary" : "Summary",
-          "title" : "Titel",
-          "website" : "Website"
+        "project": {
+          "categoryTitle": "Projects",
+          "client": "Client",
+          "endDate": "End date",
+          "highlights": "Highlights",
+          "products": "Products",
+          "roles": "Roles",
+          "startDate": "Start date",
+          "summary": "Summary",
+          "title": "Titel",
+          "website": "Website"
         },
-        "publication" : {
-          "categoryTitle" : "Publication",
-          
-          "name" : "Name",
-          "publisher" : "Publisher",
-          "releaseDate" : "Release date",
-          "summary" : "Summary",
-          "website" : "Website"
+        "publication": {
+          "categoryTitle": "Publications",
+          "name": "Name",
+          "publisher": "Publisher",
+          "releaseDate": "Release date",
+          "summary": "Summary",
+          "website": "Website"
         },
-        "reference" : {
-          "categoryTitle" : "Reference",
-          
-          "name" : "Name",
-          "reference" : "Reference"
+        "reference": {
+          "categoryTitle": "References",
+          "name": "Name",
+          "reference": "Reference"
         },
-        "skill" : {
-          
-          "keywords" : "Keywords",
-          "level" : "Level",
-          "name" : "Name"
+        "skill": {
+          "categoryTitle": "Skills",
+          "keywords": "Keywords",
+          "level": "Level",
+          "name": "Name"
         },
-        "volunteer" : {
-          "categoryTitle" : "Volunteer",
-          "highlights" : "Highlights",
-          
-          "organization" : "Organization",
-          "position" : "Position",
-          "summary" : "Summary",
-          "website" : "Website"
+        "volunteer": {
+          "categoryTitle": "Volunteers",
+          "highlights": "Highlights",
+          "organization": "Organization",
+          "position": "Position",
+          "summary": "Summary",
+          "website": "Website"
         },
-        "work" : {
-          "categoryTitle" : "Work",
-          "company" : "Company",
-          "highlights" : "Highlights",
-          
-          "position" : "Position",
-          "summary" : "Summary",
-          "website" : "Website"
+        "work": {
+          "categoryTitle": "Work",
+          "company": "Company",
+          "highlights": "Highlights",
+          "position": "Position",
+          "summary": "Summary",
+          "website": "Website"
         }
       },
-      "general" : {
-        "endDate" : "End date",
-        
-        "present" : "Till doday",
-        "startDate" : "Start date"
+      "general": {
+        "endDate": "End date",
+        "present": "Till doday",
+        "startDate": "Start date"
       },
-      "id" : "string"
+      "id": "string"
     },
-    "mainTopicItems" : [ {
-      "categoryType" : "RESUME_CATEGORY",
-      
-      "resumeCategory" : "BASICS",
-      "sortOrder" : 1,
-      "widgetPackageName" : "string"
-    } ],
-    "mode" : "INTERACTIVE",
-    "visibleCategories" : [ "AWARDS", "PROFILE", "EDUCATION", "INTEREST", "LANGUAGE", "PUBLICATION", "REFERENCE", "SKILL", "VOLUNTEER", "WORK" ]
+    "mainTopicItems": [
+      {
+        "categoryType": "RESUME_CATEGORY",
+        "resumeCategory": "BASICS",
+        "sortOrder": 1,
+        "widgetPackageName": "string"
+      }
+    ],
+    "mode": "INTERACTIVE",
+    "visibleCategories": [
+      "BASICS",
+      "LOCATION",
+      "PROFILE",
+      "WORK",
+      "PROJECT",
+      "EDUCATION",
+      "INTEREST",
+      "CERTIFICATE",
+      "LANGUAGE",
+      "PUBLICATION",
+      "REFERENCE",
+      "SKILL",
+      "AWARDS",
+      "VOLUNTEER"
+    ]
   },
-  "skills" : [ {
-    
-    
-    "keywords" : [ "430 Words per minute", "Quick typing" ],
-    "level" : "Advanced",
-    "name" : "Typing"} ],
-  "themeName" : "string",
-  
-  
-  "volunteer" : [ {
-    
-    "endDate" : "2015-07-20T15:49:04-07:00",
-    "highlights" : [ "Rainforest", "Endangered animals" ],
-    
-    "organization" : "The good corp.",
-    "position" : "CEO",
-    "startDate" : "2015-07-20T15:49:04-07:00",
-    "summary" : "It was an impressive experience because I was able to do my part for a better environment.",
-    
-    "website" : "thegoodcorp.org"
-  } ],
-  "widgets" : [ {
-    
-    "packageName" : "string"
-  } ],
-  "work" : [ {
-    "company" : "Buzzster",
-    
-    "endDate" : "2015-07-20T15:49:04-07:00",
-    "highlights" : [ "java", "scrum", "javascript", "agile" ],
-    
-    "position" : "Software-Developer",
-    "present" : false,
-    "startDate" : "2015-07-20T15:49:04-07:00",
-    "summary" : "It was an enlightening time and I learned a lot. I was able to contribute my experience to the satisfaction of the customer.",
-    
-    "website" : "http://buzzster-na.com"
-  } ]
+  "skills": [
+    {
+      "keywords": [
+        "430 Words per minute",
+        "Quick typing"
+      ],
+      "level": "Advanced",
+      "name": "Typing"
+    }
+  ],
+  "themeName": "string",
+  "volunteer": [
+    {
+      "endDate": "2015-07-20T15:49:04-07:00",
+      "highlights": [
+        "Rainforest",
+        "Endangered animals"
+      ],
+      "organization": "The good corp.",
+      "position": "CEO",
+      "startDate": "2015-07-20T15:49:04-07:00",
+      "summary": "It was an impressive experience because I was able to do my part for a better environment.",
+      "website": "thegoodcorp.org"
+    }
+  ],
+  "widgets": [
+    {
+      "packageName": "string"
+    }
+  ],
+  "work": [
+    {
+      "company": "Buzzster",
+      "endDate": "2015-07-20T15:49:04-07:00",
+      "highlights": [
+        "java",
+        "scrum",
+        "javascript",
+        "agile"
+      ],
+      "position": "Software-Developer",
+      "present": false,
+      "startDate": "2015-07-20T15:49:04-07:00",
+      "summary": "It was an enlightening time and I learned a lot. I was able to contribute my experience to the satisfaction of the customer.",
+      "website": "http://buzzster-na.com"
+    }
+  ]
 }
