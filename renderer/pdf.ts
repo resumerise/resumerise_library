@@ -47,7 +47,7 @@ export const compilePDF = async (
   let result = new Uint8Array();
   try {
     const pdfExportFile = `${crypto.randomUUID()}.pdf`;
-    const pdfExportPath = `./tmp/pdf_export/${pdfExportFile}`;
+    const pdfExportPath = `${__dirname}/../tmp/${pdfExportFile}`;
     const compiledHTML = await compileHTML(themePath, resume, DocType.PDF);
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
