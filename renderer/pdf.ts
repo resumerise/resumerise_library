@@ -1,9 +1,9 @@
 import puppeteer from "https://deno.land/x/puppeteer@9.0.1/mod.ts";
-import { Resume } from "../codegen/models/model/resume.ts";
+import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
 import * as stdPath from "https://deno.land/std@0.97.0/path/mod.ts";
-import { Settings } from "../codegen/models/model/settings.ts";
+import { Settings } from "../codegen/model/settings.ts";
 const __dirname = stdPath.dirname(stdPath.fromFileUrl(import.meta.url));
 
 eta.configure({

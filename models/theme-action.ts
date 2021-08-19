@@ -1,4 +1,4 @@
-import { Resume } from "../codegen/models/model/resume.ts";
+import { Resume } from "../codegen/model/resume.ts";
 import { ResumeriseMeta } from "../models/resumerise-meta.ts";
 import { DocType } from "./doc-type.model.ts";
 

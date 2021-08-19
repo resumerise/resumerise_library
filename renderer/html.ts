@@ -1,5 +1,5 @@
 import logSymbols from "https://cdn.skypack.dev/log-symbols";
-import { Resume } from "../codegen/models/model/resume.ts";
+import { Resume } from "../codegen/model/resume.ts";
 import { DocType } from "../models/doc-type.model.ts";
 import { ThemeAction } from "../models/theme-action.ts";
 

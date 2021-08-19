@@ -1,5 +1,5 @@
 import puppeteer from "https://deno.land/x/puppeteer@9.0.1/mod.ts";
-import { Resume } from "../codegen/models/model/resume.ts";
+import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 
 export const compilePNG = async (
