@@ -36,7 +36,8 @@ cli/tests/.test_coverage/
 /tools/wpt/certs/serial*
 
 # resumerise
-/codegen
+/codegen/*
+!/codegen/models
 /tmp
 .git.bfg-report/
 

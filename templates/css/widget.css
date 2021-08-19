@@ -1,0 +1,63 @@
+.nav-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 7px;
+}
+
+html.INTERACTIVE .nav-add img {
+    height: 20px;
+}
+
+html.INTERACTIVE .nav-add:hover {
+    fill: grey;
+    color: grey;
+    border-color: grey;
+}
+
+html.INTERACTIVE .content:hover .nav-edit {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+html:not(.INTERACTIVE) .nav-add,
+html:not(.INTERACTIVE) .nav-edit {
+    display: none;
+}
+
+html.INTERACTIVE .nav-edit {
+    width: 25px;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    display: none;
+}
+
+html.INTERACTIVE .nav-edit__item {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+html.INTERACTIVE .nav-edit__item:last {
+    margin-bottom: 5px;
+}
+
+html.INTERACTIVE .nav-edit__item:hover {
+    color: grey;
+    fill: grey;
+}
+
+html.INTERACTIVE .nav-edit__item img {
+    height: 20px;
+}
+
+html.INTERACTIVE .content:hover {
+    background-color: aliceblue;
+    -webkit-transition: all 0.2s 0s ease, all 0.2s 0s ease;
+    -moz-transition: all 0.2s 0s ease, all 0.2s 0s ease;
+    -o-transition: all 0.2s 0s ease, all 0.2s 0s ease;
+    transition: all 0.2s 0s ease, all 0.2s 0s ease;
+}

@@ -107,7 +107,23 @@
     }
   ],
   "settings": {
-    "dateFormat": "dd.mm.yyyy",
+    "categoryKey": {
+      "award": "AWARD",
+      "basic": "BASICS",
+      "certificate": "CERTIFICATION",
+      "education": "EDUCATION",
+      "interest": "INTEREST",
+      "language": "LANGUAGE",
+      "location": "LOCATION",
+      "profile": "PROFILE",
+      "project": "PROJECT",
+      "publication": "PUBLICATION",
+      "reference": "REFERENCE",
+      "skill": "SKILL",
+      "volunteer": "VOLUNTEER",
+      "work": "WORK"
+    },
+    "dateFormat": "dd.MM.yyyy",
     "labels": {
       "categoryProperty": {
         "award": {

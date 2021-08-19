@@ -1,9 +1,9 @@
 import puppeteer from "https://deno.land/x/puppeteer@9.0.1/mod.ts";
 import { Resume } from "../codegen/models/model/resume.ts";
-import { DocType } from "../models/doc-type.model.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
 import * as stdPath from "https://deno.land/std@0.97.0/path/mod.ts";
+import { Settings } from "../codegen/models/model/settings.ts";
 const __dirname = stdPath.dirname(stdPath.fromFileUrl(import.meta.url));
 
 eta.configure({
@@ -48,7 +48,11 @@ export const compilePDF = async (
   try {
     const pdfExportFile = `${crypto.randomUUID()}.pdf`;
     const pdfExportPath = `${__dirname}/../tmp/${pdfExportFile}`;
-    const compiledHTML = await compileHTML(themePath, resume, DocType.PDF);
+    const compiledHTML = await compileHTML(
+      themePath,
+      resume,
+      "PRINT",
+    );
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.setContent(compiledHTML, {
