@@ -1,15 +1,19 @@
 // deno-lint-ignore-file
-import * as stdPath from "https://deno.land/std@0.97.0/path/mod.ts";
-const __dirname = stdPath.dirname(stdPath.fromFileUrl(import.meta.url));
 
 export const getNavTemplatePath = (): string => {
-  return `${__dirname}/widgets/nav.eta`;
+  return Deno.readTextFileSync(
+    `${new URL("./widgets/nav.eta", import.meta.url).pathname}`,
+  );
 };
 
 export const getAddItemTemplatePath = (): string => {
-  return `${__dirname}/widgets/add.eta`;
+  return Deno.readTextFileSync(
+    `${new URL("./widgets/add.eta", import.meta.url).pathname}`,
+  );
 };
 
 export const getWidgetCSSFilePath = (): string => {
-  return `${__dirname}/css/widget.css`;
+  return Deno.readTextFileSync(
+    `${new URL("./css/widget.css", import.meta.url).pathname}`,
+  );
 };

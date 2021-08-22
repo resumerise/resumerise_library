@@ -2,8 +2,9 @@ import puppeteer from "https://deno.land/x/puppeteer@9.0.1/mod.ts";
 import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
-import * as stdPath from "https://deno.land/std@0.97.0/path/mod.ts";
-import { Settings } from "../codegen/model/settings.ts";
+import * as stdPath from "https://deno.land/std@0.105.0/path/mod.ts";
+import { cryptoRandomString } from "https://deno.land/x/crypto_random_string@1.1.0/mod.ts";
+
 const __dirname = stdPath.dirname(stdPath.fromFileUrl(import.meta.url));
 
 eta.configure({
@@ -46,7 +47,7 @@ export const compilePDF = async (
 ): Promise<Uint8Array> => {
   let result = new Uint8Array();
   try {
-    const pdfExportFile = `${crypto.randomUUID()}.pdf`;
+    const pdfExportFile = `${cryptoRandomString({ length: 10 })}.pdf`;
     const pdfExportPath = `${__dirname}/../tmp/${pdfExportFile}`;
     const compiledHTML = await compileHTML(
       themePath,
