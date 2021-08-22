@@ -5,8 +5,6 @@ import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
 import * as stdPath from "https://deno.land/std@0.105.0/path/mod.ts";
 import { cryptoRandomString } from "https://deno.land/x/crypto_random_string@1.1.0/mod.ts";
 
-const __dirname = stdPath.dirname(stdPath.fromFileUrl(import.meta.url));
-
 eta.configure({
   views: stdPath.join("views"),
 });
@@ -14,7 +12,9 @@ eta.configure({
 const getFooter = async (resume: Resume): Promise<string> => {
   try {
     const result = await eta.render(
-      Deno.readTextFileSync(`${__dirname}/../templates/footer.eta`),
+      Deno.readTextFileSync(
+        `${new URL("../templates/footer.eta", import.meta.url).pathname}`,
+      ),
       {
         resume: resume,
       },
@@ -29,7 +29,9 @@ const getFooter = async (resume: Resume): Promise<string> => {
 const getHeader = async (resume: Resume): Promise<string> => {
   try {
     const result = await eta.render(
-      Deno.readTextFileSync(`${__dirname}/../templates/header.eta`),
+      Deno.readTextFileSync(
+        `${new URL("../templates/header.eta", import.meta.url).pathname}`,
+      ),
       {
         resume: resume,
       },
@@ -48,7 +50,7 @@ export const compilePDF = async (
   let result = new Uint8Array();
   try {
     const pdfExportFile = `${cryptoRandomString({ length: 10 })}.pdf`;
-    const pdfExportPath = `${__dirname}/../tmp/${pdfExportFile}`;
+    const pdfExportPath = new URL("../tmp/", pdfExportFile).pathname;
     const compiledHTML = await compileHTML(
       themePath,
       resume,
