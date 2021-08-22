@@ -1,0 +1,9 @@
+FROM denoland/deno:1.10.3
+
+WORKDIR /resumerise/resumerise_library
+
+USER deno
+
+COPY . .
+
+CMD ["cache", "--unstable", "mod.ts"]
