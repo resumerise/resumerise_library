@@ -14,7 +14,6 @@ export const validateMeta = (metaData: ResumeriseMeta): boolean => {
     schemaObject,
     metaData,
     ((error) => {
-      console.log(error);
       result = !!error;
     }),
     (() => {

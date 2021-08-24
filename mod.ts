@@ -5,4 +5,5 @@ export { compilePDF } from "./renderer/pdf.ts";
 export { compilePNG } from "./renderer/png.ts";
 export { CompileException } from "./exceptions/compile-exception.ts";
 export * from "./templates/get-paths.ts";
+export { getFileContent } from "./loader/get-file-content.ts";
 export * from "./models/index.ts";
