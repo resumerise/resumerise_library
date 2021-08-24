@@ -1,14 +1,12 @@
 // use polyfill to load file with file:/// and href://
 import "https://deno.land/x/file_fetch@0.2.0/polyfill.ts";
+import { cache } from "https://deno.land/x/cache@0.2.13/mod.ts";
 
 export const getFileContent = async (
   path: string,
   baseUrl: string,
 ): Promise<string> => {
-  return (await (await globalThis.fetch(
-    new URL(
-      path,
-      baseUrl,
-    ).href,
-  )).text());
+  const fileUrl = new URL(path, baseUrl).href;
+  const file = await cache(fileUrl);
+  return Deno.readTextFileSync(file.path);
 };
