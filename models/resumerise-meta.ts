@@ -1,7 +1,116 @@
+import { DocType } from "./doc-type.model.ts";
+
 export interface ResumeriseMeta {
   name: string;
   colors: Array<string>;
   tags: Array<string>;
+  fonts: Array<string>;
   description: string;
-  platforms: Array<string>;
+  platforms: Array<DocType>;
+  styles: Array<ThemeStyle>;
+  categories: Array<ThemeCategory>;
+  author: string;
+  authorTwitterUrl?: string;
+  authorInstagramUrl?: string;
+  authorWebUrl?: string;
 }
+
+export type ThemeCategory =
+  | "BUSINESS"
+  | "EXECUTIVE"
+  | "ACTING"
+  | "ACADEMIC"
+  | "GRAPHIC_DESIGN"
+  | "COLLEGE"
+  | "HIGH_SCHOOL"
+  | "DESIGNER"
+  | "COMPANY"
+  | "FASHION"
+  | "PORTFOLIO"
+  | "ART"
+  | "MARKETING"
+  | "ADVERTISING"
+  | "PERSONAL"
+  | "TEACHER"
+  | "ACTOR"
+  | "BEAUTY"
+  | "STARTUP"
+  | "ARTIST"
+  | "EDUCATION"
+  | "FOOD"
+  | "MAKEUP_ARTIST"
+  | "MEDICAL"
+  | "NATURE"
+  | "PAINTER"
+  | "TECHNOLOGY"
+  | "DEVELOPER"
+  | "IT"
+  | "BAR"
+  | "SOCIAL_MEDIA"
+  | "SEO"
+  | "NETWORKING"
+  | "INTERIOR_DESIGN"
+  | "CHILDRENS"
+  | "MUSIC"
+  | "SALE"
+  | "STUDENT"
+  | "TROPICAL"
+  | "WEDDING"
+  | "DOCTOR"
+  | "SCHOLARSHIP";
+
+export type ThemeStyle =
+  | "CREATIVE"
+  | "MODERN"
+  | "SIMPLE"
+  | "MINIMALIST"
+  | "CLEAN"
+  | "BORDER"
+  | "PROFESSIONAL"
+  | "FEMININE"
+  | "BOLD"
+  | "MINIMAL"
+  | "ELEGANT"
+  | "COLORFUL"
+  | "CORPORATE"
+  | "PATTERN"
+  | "PHOTO"
+  | "ILLUSTRATION"
+  | "FLORAL"
+  | "GEOMETRIC"
+  | "ABSTRACT"
+  | "LINE"
+  | "DOTS"
+  | "PASTEL"
+  | "AESTHETIC"
+  | "WATERCOLOR"
+  | "GRADIENT"
+  | "LINES"
+  | "BLACK_AND_WHITE"
+  | "DARK"
+  | "FUN"
+  | "CIRCLE"
+  | "GRID"
+  | "PLAYFUL"
+  | "FUNKY"
+  | "INFOGRAPHIC"
+  | "RETRO"
+  | "VINTAGE"
+  | "SCRIPT"
+  | "ARTISTIC"
+  | "NEON"
+  | "SKETCH"
+  | "TEXTURE"
+  | "ARROW"
+  | "FRAME"
+  | "GOLD"
+  | "LIGHT"
+  | "BLOB"
+  | "COLLAGE"
+  | "COOL"
+  | "CUTE"
+  | "LUXURY"
+  | "ORGANIC"
+  | "ROUND"
+  | "TECH"
+  | "VIBRANT";

@@ -6,6 +6,11 @@ const schemaObject = {
   description: vs.string({
     minLength: 3,
   }),
+  platforms: vs.array({ minLength: 1 }),
+  categories: vs.array({ minLength: 1 }),
+  author: vs.string({ minLength: 3 }),
+  tags: vs.string({ minLength: 1 }),
+  colors: vs.array({ minLength: 1 }),
 };
 
 export const validateMeta = (metaData: ResumeriseMeta): boolean => {

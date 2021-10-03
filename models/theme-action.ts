@@ -7,5 +7,5 @@ export interface ThemeAction {
     resume: Resume,
     type: DocType,
   ): Promise<string>;
-  getMeta(): ResumeriseMeta;
+  meta: ResumeriseMeta;
 }
