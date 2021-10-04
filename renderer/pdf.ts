@@ -1,4 +1,4 @@
-import puppeteer from "https://deno.land/x/puppeteer@9.0.1/mod.ts";
+import puppeteer from "https://deno.land/x/puppeteer@9.0.2/mod.ts";
 import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
