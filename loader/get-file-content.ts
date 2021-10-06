@@ -8,7 +8,7 @@ export const getFileContent = async (
   baseUrl: string,
 ): Promise<string> => {
   const fileUrl = new URL(filePath, baseUrl).href;
-  if (fileUrl.search("file:///") >= 0) {
+  if (fileUrl.search("file://") >= 0) {
     return Deno.readTextFileSync(path.fromFileUrl(fileUrl));
   }
   const file = await cache(fileUrl);
