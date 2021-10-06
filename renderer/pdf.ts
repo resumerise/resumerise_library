@@ -3,7 +3,6 @@ import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
 import * as stdPath from "https://deno.land/std@0.105.0/path/mod.ts";
-import { cryptoRandomString } from "https://deno.land/x/crypto_random_string@1.1.0/mod.ts";
 import { getFileContent } from "../mod.ts";
 
 eta.configure({
@@ -43,13 +42,9 @@ const getHeader = async (resume: Resume): Promise<string> => {
 export const compilePDF = async (
   themePath: string,
   resume: Resume,
-  moduleUrl: string,
 ): Promise<Uint8Array> => {
   let result = new Uint8Array();
   try {
-    const pdfExportFile = `${cryptoRandomString({ length: 10 })}.pdf`;
-    const pdfExportPath =
-      new URL(`../tmp/${pdfExportFile}`, moduleUrl).pathname;
     const compiledHTML = await compileHTML(
       themePath,
       resume,
@@ -70,19 +65,16 @@ export const compilePDF = async (
       ],
       timeout: 0,
     });
-    await page.pdf({
+    result = await page.pdf({
       format: "a4",
       displayHeaderFooter: true,
       footerTemplate: await getFooter(resume),
       headerTemplate: await getHeader(resume),
-      path: pdfExportPath,
       margin: {
         bottom: "27mm",
         top: "27mm",
       },
     });
-    result = Deno.readFileSync(pdfExportPath);
-    Deno.removeSync(pdfExportPath);
     await browser.close();
   } catch (e) {
     console.log(`PDF compile was not possible: ${e}`);
