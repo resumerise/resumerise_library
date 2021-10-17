@@ -5,6 +5,12 @@
       "date": "2015-07-20T15:49:04-07:00",
       "summary": "He is one of the best in his class and is proficient in several programming languages. He managed to find the very biggest bug of the century and fix it on his own.",
       "title": "Developer of the year"
+    },
+    {
+      "awarder": "Resumerise Developer Award",
+      "date": "2013-07-20T15:49:04-07:00",
+      "summary": "Best Developer of the Year Award in the Frontend Development category. Outstanding performance in CSS and HTML implementation.",
+      "title": "Professional frontend developer"
     }
   ],
   "basics": {
@@ -19,12 +25,22 @@
     },
     "name": "Jaimie Summerside",
     "phone": "391-867-0210",
-    "picture": "http://dummyimage.com/150x150.png/ff4444/ffffff",
+    "picture": "https://source.unsplash.com/random/200x200",
     "profiles": [
       {
-        "network": "LinkedIn",
-        "url": "http://ca.linkedin.com/in/jummerside",
-        "username": "jummerside"
+        "network": "linkedin",
+        "url": "http://ca.linkedin.com/in/jummerside123",
+        "username": "jummerside123"
+      },
+      {
+        "network": "twitter",
+        "url": "www.twitter.com/jummerside123",
+        "username": "jummerside123"
+      },
+      {
+        "network": "facebook",
+        "url": "www.facebook.com/jummerside123",
+        "username": "jummerside123"
       }
     ],
     "summary": "I have many years of experience in software development and support my customers in highly complex software projects.",
@@ -35,21 +51,41 @@
       "issueDate": "2015-07-20T15:49:04-07:00",
       "issuer": "Oracle",
       "title": "Oracle Certified Professional, Java EE 7 Application Developer Certification"
+    },
+    {
+      "issueDate": "2016-01-10T15:49:04-07:00",
+      "issuer": "Exin Agile Scrum Foundation Training",
+      "title": "Agile Scrum Mastser"
     }
   ],
   "education": [
     {
-      "area": "Software Development",
+      "area": "Master of computer sciene",
       "courses": [
-        "PHP",
-        "Java"
+        "Theory of Programming",
+        "Introduction to Computer Graphics",
+        "Client Server Programming"
       ],
       "endDate": "2015-07-20T15:49:04-07:00",
       "gpa": "2.3",
-      "institution": "University of IT",
+      "institution": "University of Astro",
       "present": false,
-      "startDate": "2015-07-20T15:49:04-07:00",
+      "startDate": "2013-07-20T15:49:04-07:00",
       "studyType": "Master"
+    },
+    {
+      "area": "Training as an IT specialist",
+      "courses": [
+        "IT networks",
+        "IT Consulting",
+        "Internet security"
+      ],
+      "endDate": "2013-07-20T15:49:04-07:00",
+      "gpa": "1.3",
+      "institution": "Evening school for IT continuing education",
+      "present": false,
+      "startDate": "2011-01-20T15:49:04-07:00",
+      "studyType": "Evening School"
     }
   ],
   "interests": [
@@ -59,15 +95,34 @@
         "Unicorns"
       ],
       "name": "Wildlife"
+    },
+    {
+      "keywords": [
+        "sport"
+      ],
+      "name": "Tennis"
+    },
+    {
+      "keywords": [
+        "sport"
+      ],
+      "name": "mountainbiking"
     }
   ],
   "languages": [
     {
-      "fluency": "fluently",
+      "fluency": "Mother tongue or bilingual",
       "language": "German"
+    },
+    {
+      "fluency": "Mother tongue or bilingual",
+      "language": "English"
+    },
+    {
+      "fluency": "Good knowledge",
+      "language": "Spanish"
     }
   ],
-  "picture": "http://dummyimage.com/150x150.png/ff4444/ffffff",
   "projects": [
     {
       "client": "Bank of IntelliPay",
@@ -78,32 +133,77 @@
       ],
       "present": false,
       "products": [
-        "Software Developer",
-        "Scrum Master"
+        "Angular 11",
+        "HTML 5",
+        "REST Client",
+        "JavaScript",
+        "TypeScript"
       ],
       "roles": [
-        "Software Developer",
+        "Frontend Developer",
         "Scrum Master"
       ],
       "startDate": "2015-07-20T15:49:04-07:00",
       "summary": "An exciting software development from the previous payment service provider.",
-      "title": "QuickPayment Solutions",
+      "title": "QuickPayment 2.0",
+      "website": "http://www.intellipay-go.net"
+    },
+    {
+      "client": "Long Island Stock Company",
+      "endDate": "2013-01-01T15:49:04-07:00",
+      "highlights": [
+        "Integrate a payment service solution",
+        "Realized a CI/CD pipeline in Jenkins"
+      ],
+      "present": false,
+      "products": [
+        "Java 11",
+        "Hibernate",
+        "MySQL",
+        "Apache Commons"
+      ],
+      "roles": [
+        "Backend Developer",
+        "Scrum Master"
+      ],
+      "startDate": "2011-07-20T15:49:04-07:00",
+      "summary": "Integration of an interface to perform payment transaction.",
+      "title": "Money Transfer",
       "website": "http://www.intellipay-go.net"
     }
   ],
   "publications": [
     {
-      "name": "Create an API in 5 easy steps.",
+      "name": "Create an API in 5 easy steps",
       "publisher": "IT Press",
       "releaseDate": "2015-07-20T15:49:04-07:00",
       "summary": "It has never been so easy to create an API. With this book you can do it in 7 steps.",
       "website": "http://www.create-api-in-7-steps.net"
+    },
+    {
+      "name": "REST API Development - Best practices",
+      "publisher": "IT Press",
+      "releaseDate": "2016-01-22T15:49:04-07:00",
+      "summary": "Avoid errors when implementing REST SC interfaces by following some instructions.",
+      "website": "http://www.rest-api-development-now.net"
     }
   ],
   "references": [
     {
-      "name": "CTO of MultiSoft Corp.",
+      "name": "CTO MultiSoft",
       "reference": "He is a team player and has always behaved in an exemplary manner towards his colleagues."
+    },
+    {
+      "name": "Chief Officer FastPayments",
+      "reference": "He is someone who can quickly learn new topics. We are happy to recommend this developer."
+    },
+    {
+      "name": "Project Manager GogoFood",
+      "reference": "It took him only two days to understand our system and become productive. He has also been able to convince through a social skills."
+    },
+    {
+      "name": "Business Analyse WeCodeFast",
+      "reference": "We will always sign someone like him again. Fast and competent."
     }
   ],
   "settings": {
@@ -223,7 +323,7 @@
           "website": "Website"
         },
         "work": {
-          "categoryTitle": "Work",
+          "categoryTitle": "Experience",
           "company": "Company",
           "highlights": "Highlights",
           "position": "Position",
@@ -274,7 +374,6 @@
       "name": "Typing"
     }
   ],
-  "themeName": "string",
   "volunteer": [
     {
       "endDate": "2015-07-20T15:49:04-07:00",
@@ -289,26 +388,45 @@
       "website": "thegoodcorp.org"
     }
   ],
-  "widgets": [
-    {
-      "packageName": "string"
-    }
-  ],
   "work": [
     {
       "company": "Buzzster",
       "endDate": "2015-07-20T15:49:04-07:00",
       "highlights": [
-        "java",
-        "scrum",
-        "javascript",
-        "agile"
+        "Implementing an API Service in Swagger",
+        "Design & Implemenation of the database"
       ],
       "position": "Software-Developer",
       "present": false,
-      "startDate": "2015-07-20T15:49:04-07:00",
+      "startDate": "2014-07-20T15:49:04-07:00",
       "summary": "It was an enlightening time and I learned a lot. I was able to contribute my experience to the satisfaction of the customer.",
       "website": "http://buzzster-na.com"
+    },
+    {
+      "company": "GogoFood",
+      "endDate": "2014-02-20T15:49:04-07:00",
+      "highlights": [
+        "Specification of Cucumber Tests",
+        "Setup k8s"
+      ],
+      "position": "Software-Developer",
+      "present": false,
+      "startDate": "2013-07-20T15:49:04-07:00",
+      "summary": "At this employer I had the opportunity to develop my skills as a database developer. ",
+      "website": "http://gogo-food-now.com"
+    },
+    {
+      "company": "TheQuickCoder",
+      "endDate": "2013-07-20T15:49:04-07:00",
+      "highlights": [
+        "Implementing a Sign-In form",
+        "Integrating AWS for IAM"
+      ],
+      "position": "Web-Developer",
+      "present": false,
+      "startDate": "2012-07-20T15:49:04-07:00",
+      "summary": "Use and integrate AWS services to perform user authentication and authorization. A special feature was also the creation of a PWA to make the frontend app available to others. ",
+      "website": "http://thequickcoder-q.com"
     }
   ]
 }
