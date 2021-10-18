@@ -51,6 +51,7 @@ export const compilePDF = async (
       "PRINT",
     );
     const browser = await puppeteer.launch({
+      ignoreDefaultArgs: ["--disable-extensions"],
       headless: true,
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
@@ -63,7 +64,6 @@ export const compilePDF = async (
         "domcontentloaded",
         "networkidle2",
       ],
-      timeout: 0,
     });
     result = await page.pdf({
       format: "a4",
