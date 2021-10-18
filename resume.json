@@ -284,7 +284,7 @@
           "username": "Username"
         },
         "project": {
-          "categoryTitle": "Projects",
+          "categoryTitle": "Project History",
           "client": "Client",
           "endDate": "End date",
           "highlights": "Highlights",
@@ -323,7 +323,7 @@
           "website": "Website"
         },
         "work": {
-          "categoryTitle": "Experience",
+          "categoryTitle": "Work history",
           "company": "Company",
           "highlights": "Highlights",
           "position": "Position",
