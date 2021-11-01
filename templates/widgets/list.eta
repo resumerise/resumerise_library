@@ -1,0 +1,14 @@
+<div class="key-list-item" <% if(it.classes) { %><%= it.classes %><% } %>" <% if(it.id) { id="<%= it.id %>" } %>>
+    <% if(it.label) { %>
+        <label class="list__label">
+            <%= it.label %>
+        </label>
+    <% } %>
+    <% if(it.data?.length) { %>
+        <ul class="list__items">
+        <% it.data.forEach(function(item) { %>
+            <li class="list__item"><%= item %></li>
+        <% }) %>
+		</ul>
+    <% } %>
+</div>
