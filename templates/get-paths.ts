@@ -13,3 +13,15 @@ export const getAddItemTemplatePath = async (): Promise<string> => {
 export const getWidgetCSSFilePath = async (): Promise<string> => {
   return await getFileContent("./css/widget.css", import.meta.url);
 };
+
+export const getWidgetKeyValuePairFilePath = async (): Promise<string> => {
+  return await getFileContent("./widgets/key-value-item.eta", import.meta.url);
+};
+
+export const getWidgetListFilePath = async (): Promise<string> => {
+  return await getFileContent("./widgets/list.eta", import.meta.url);
+};
+
+export const getWidgetDateRangeFilePath = async (): Promise<string> => {
+  return await getFileContent("./widgets/date-range.eta", import.meta.url);
+};
