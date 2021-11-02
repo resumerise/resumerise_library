@@ -1,4 +1,4 @@
-<div class="key-value-item <% if(it.classes) { %><%= it.classes %><% } %>" <% if(it.id) { id="<%= it.id %>" } %>>
+<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-value-item<% if(it.classes) { %> <%= it.classes %><% } %>">
 <% if(it.label && (it.showLabel || it.showLabel === undefined || it.showLabel === null)) { %>
    <label class="item__key">
         <%= it.label %>
