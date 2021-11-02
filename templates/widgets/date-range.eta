@@ -1,4 +1,4 @@
-<div class="date" <% if(it.classes) { %><%= it.classes %><% } %>" <% if(it.id) { id="<%= it.id %>" } %>>
+<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="date<% if(it.classes) { %> <%= it.classes %><% } %>">
     <!-- startDate -->
     <% if(it.settings?.labels?.general?.startDate && (it.showLabel || it.showLabel === undefined || it.showLabel === null)) { %>
         <label>
