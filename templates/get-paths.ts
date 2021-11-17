@@ -18,6 +18,10 @@ export const getWidgetKeyValuePairFilePath = async (): Promise<string> => {
   return await getFileContent("./widgets/key-value-item.eta", import.meta.url);
 };
 
+export const getWidgetKeyMailPairFilePath = async (): Promise<string> => {
+  return await getFileContent("./widgets/key-mail-item.eta", import.meta.url);
+};
+
 export const getProfileItem = async (): Promise<string> => {
   return await getFileContent("./widgets/profile-item.eta", import.meta.url);
 };
