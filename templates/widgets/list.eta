@@ -1,5 +1,5 @@
 <div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-list-item<% if(it.classes) { %> <%= it.classes %><% } %>">
-    <% if(it.label) { %>
+    <% if(it.label && it.showLabel) { %>
         <label class="list__label">
             <%= it.label %>
         </label>

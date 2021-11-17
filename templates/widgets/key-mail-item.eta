@@ -1,0 +1,12 @@
+<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-mail-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+<% if(it.label && it.showLabel) { %>
+   <label class="item__key">
+        <%= it.label %>
+    </label>
+<% } %>
+<% if(it.value) { %>
+    <a href="mailto:<%= it.value %>" class="item__value">
+        <%= it.value %>
+    </a>
+<% } %>
+</div>

@@ -7,7 +7,7 @@
       "title": "Developer of the year"
     },
     {
-      "awarder": "Resumerise Developer Award",
+      "awarder": "Lynx Developer community",
       "date": "2013-07-20T15:49:04-07:00",
       "summary": "Best Developer of the Year Award in the Frontend Development category. Outstanding performance in CSS and HTML implementation.",
       "title": "Professional frontend developer"
@@ -29,21 +29,18 @@
     "profiles": [
       {
         "network": "linkedin",
-        "url": "http://ca.linkedin.com/in/jummerside123",
-        "username": "jummerside123"
+        "url": "http://ca.linkedin.com/in/jummerside123"
       },
       {
         "network": "twitter",
-        "url": "www.twitter.com/jummerside123",
-        "username": "jummerside123"
+        "url": "http://www.twitter.com/jummerside123"
       },
       {
         "network": "facebook",
-        "url": "www.facebook.com/jummerside123",
-        "username": "jummerside123"
+        "url": "http://www.facebook.com/jummerside123"
       }
     ],
-    "summary": "I have many years of experience in software development and support my customers in highly complex software projects.",
+    "summary": "I'm a professional web developer working in the UK and have a few years of Python experience. I'm interested in exploring the Python programming language as a career option but am also interested to explore the technology in general.",
     "website": "http://js-pro-developer.org"
   },
   "certifications": [
@@ -98,15 +95,18 @@
     },
     {
       "keywords": [
-        "sport"
+        "sport",
+        "lifestyle"
       ],
       "name": "Tennis"
     },
     {
       "keywords": [
-        "sport"
+        "sport",
+        "bikeway",
+        "narrow trail"
       ],
-      "name": "mountainbiking"
+      "name": "Mountainbiking"
     }
   ],
   "languages": [
@@ -191,19 +191,19 @@
   "references": [
     {
       "name": "CTO MultiSoft",
-      "reference": "He is a team player and has always behaved in an exemplary manner towards his colleagues."
+      "reference": "He is a great developer who understands the work we are doing. I wish him all the good things. My goal is to find a way to do the same. It will take a special kind of creativity and a lot of hard work to make something unique. He is a good guy, but that was no excuse for me not to tell him. I'm grateful for help and I am so grateful for the support of his family and the people around here."
     },
     {
       "name": "Chief Officer FastPayments",
-      "reference": "He is someone who can quickly learn new topics. We are happy to recommend this developer."
+      "reference": "He optimized our payment processes so we can continue to provide this service for all customers."
     },
     {
-      "name": "Project Manager GogoFood",
-      "reference": "It took him only two days to understand our system and become productive. He has also been able to convince through a social skills."
+      "name": "Project Manager GoodGames",
+      "reference": "Since being appointed CEO, he's become a senior vice president at Microsoft's Xbox development division (\"you gotta know exactly what you're talking about when you first started this career\"), a top executive working with Xbox's Xbox mobile and digital and media teams and working closely with Microsoft, Sony and Alphabet to build a product for the mobile and digital worlds."
     },
     {
       "name": "Business Analyse WeCodeFast",
-      "reference": "We will always sign someone like him again. Fast and competent."
+      "reference": "His coding skills were honed by the top universities and the nation's top tech companies working on their projects around the world."
     }
   ],
   "settings": {
@@ -416,7 +416,7 @@
       "website": "http://gogo-food-now.com"
     },
     {
-      "company": "TheQuickCoder",
+      "company": "Codery",
       "endDate": "2013-07-20T15:49:04-07:00",
       "highlights": [
         "Implementing a Sign-In form",
@@ -426,7 +426,7 @@
       "present": false,
       "startDate": "2012-07-20T15:49:04-07:00",
       "summary": "Use and integrate AWS services to perform user authentication and authorization. A special feature was also the creation of a PWA to make the frontend app available to others. ",
-      "website": "http://thequickcoder-q.com"
+      "website": "http://thequickcoder.com"
     }
   ]
 }
