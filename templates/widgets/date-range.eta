@@ -1,6 +1,6 @@
 <div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="date<% if(it.classes) { %> <%= it.classes %><% } %>">
     <!-- startDate -->
-    <% if(it.settings?.labels?.general?.startDate && (it.showLabel || it.showLabel === undefined || it.showLabel === null)) { %>
+    <% if(it.settings?.labels?.general?.startDate && it.showLabel) { %>
         <label>
             <%= it.settings.labels.general.startDate %>
         </label>
@@ -14,7 +14,7 @@
         <i class="fas fa-angle-right"></i>
     <% } %>
     <!-- endDate -->
-    <% if(it.settings?.labels?.general?.endDate && (it.showLabel || it.showLabel === undefined || it.showLabel === null)) { %>
+    <% if(it.settings?.labels?.general?.endDate && it.showLabel) { %>
         <label>
             <%= it.settings.labels.general.endDate %>
         </label>

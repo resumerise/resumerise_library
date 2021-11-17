@@ -1,12 +1,12 @@
-<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-value-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-url-item<% if(it.classes) { %> <%= it.classes %><% } %>">
 <% if(it.label && it.showLabel) { %>
    <label class="item__key">
         <%= it.label %>
     </label>
 <% } %>
 <% if(it.value) { %>
-     <span class="item__value">
+     <a href="it.value" class="item__value">
         <%= it.value %>
-    </span>
+    </a>
 <% } %>
 </div>
