@@ -1,16 +1,22 @@
 {
   "awards": [
     {
-      "awarder": "Developer committee",
+      "awarder": "Developer Committee",
       "date": "2015-07-20T15:49:04-07:00",
       "summary": "He is one of the best in his class and is proficient in several programming languages. He managed to find the very biggest bug of the century and fix it on his own.",
       "title": "Developer of the year"
     },
     {
-      "awarder": "Lynx Developer community",
+      "awarder": "Lynx Developer",
       "date": "2013-07-20T15:49:04-07:00",
       "summary": "Best Developer of the Year Award in the Frontend Development category. Outstanding performance in CSS and HTML implementation.",
-      "title": "Professional frontend developer"
+      "title": "Professional Frontend Developer"
+    },
+    {
+      "awarder": "Software Quality",
+      "date": "2017-02-10T11:49:04-07:00",
+      "summary": "He tested the software well to determine if it was safe if implemented as intended.",
+      "title": "Frontend Testing Developer"
     }
   ],
   "basics": {
@@ -38,6 +44,30 @@
       {
         "network": "facebook",
         "url": "http://www.facebook.com/jummerside123"
+      },
+      {
+        "network": "instagram",
+        "url": "https://www.instagram.com/jummerside123"
+      },
+      {
+        "network": "xing",
+        "url": "https://www.xing.de/jummerside123"
+      },
+      {
+        "network": "behance",
+        "url": "https://www.behance.com/jummerside123"
+      },
+      {
+        "network": "dribbble",
+        "url": "https://www.dribble.com/jummerside123"
+      },
+      {
+        "network": "medium",
+        "url": "https://www.medium.com/jummerside123"
+      },
+      {
+        "network": "github",
+        "url": "https://www.github.com/jummerside123"
       }
     ],
     "summary": "I'm a professional web developer working in the UK and have a few years of Python experience. I'm interested in exploring the Python programming language as a career option but am also interested to explore the technology in general.",
@@ -191,7 +221,7 @@
   "references": [
     {
       "name": "CTO MultiSoft",
-      "reference": "He is a great developer who understands the work we are doing. I wish him all the good things. My goal is to find a way to do the same. It will take a special kind of creativity and a lot of hard work to make something unique. He is a good guy, but that was no excuse for me not to tell him. I'm grateful for help and I am so grateful for the support of his family and the people around here."
+      "reference": "He is a great developer who understands the work we are doing. I wish him all the good things. My goal is to find a way to do the same."
     },
     {
       "name": "Chief Officer FastPayments",

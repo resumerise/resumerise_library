@@ -5,7 +5,7 @@
     cursor: pointer;
     border: 1px solid #999;
     background-color: #fff;
-    padding: 7px;
+    padding: 0.6em;
 }
 
 html.INTERACTIVE .nav-add img {
@@ -33,7 +33,6 @@ html.INTERACTIVE .nav-edit {
     position: absolute;
     top: 0;
     right: -25px;
-    display: none;
 }
 
 html.INTERACTIVE .nav-edit__item {
@@ -43,11 +42,6 @@ html.INTERACTIVE .nav-edit__item {
 
 html.INTERACTIVE .nav-edit__item:last {
     margin-bottom: 5px;
-}
-
-html.INTERACTIVE .nav-edit__item:hover {
-    color: grey;
-    fill: grey;
 }
 
 html.INTERACTIVE .nav-edit__item img {
