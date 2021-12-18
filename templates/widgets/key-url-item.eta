@@ -7,7 +7,7 @@
         <i class="icon fa <%= it.iconClass %>"></i>
     <% } %>
     <% if(it.value) { %>
-        <a href="it.value" class="item__value">
+        <a href="<%= it.value %>" class="item__value">
             <%= it.value %>
         </a>
     <% } %>
