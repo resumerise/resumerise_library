@@ -16,7 +16,7 @@ export const compilePNG = async (
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  page.screenshot();
+  page.screenshot({ fullPage: true });
   await page.setContent(compiledHTML);
   const result = await page.screenshot({ type: "png" }) as Uint8Array;
   await browser.close();

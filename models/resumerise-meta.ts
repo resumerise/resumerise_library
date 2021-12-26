@@ -1,7 +1,6 @@
 import { DocType } from "./doc-type.model.ts";
 
 export interface ResumeriseMeta {
-  version: string;
   name: string;
   colors: Array<string>;
   tags: Array<string>;
