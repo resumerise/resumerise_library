@@ -66,6 +66,7 @@ export type ThemeStyle =
   | "MODERN"
   | "SIMPLE"
   | "MINIMALIST"
+  | "ANIMATED"
   | "CLEAN"
   | "BORDER"
   | "PROFESSIONAL"
