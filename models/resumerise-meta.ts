@@ -1,10 +1,8 @@
 import { DocType } from "./doc-type.model.ts";
 
 export interface ResumeriseMeta {
-  name: string;
   colors: Array<string>;
   tags: Array<string>;
-  fonts: Array<string>;
   description: string;
   platforms: Array<DocType>;
   styles: Array<ThemeStyle>;
@@ -12,8 +10,12 @@ export interface ResumeriseMeta {
   author: string;
   authorTwitterUrl?: string;
   authorInstagramUrl?: string;
+  authorFacebookUrl?: string;
   authorWebUrl?: string;
+  subscription: PriceType;
 }
+
+export type PriceType = "PRO" | "FREE";
 
 export type ThemeCategory =
   | "BUSINESS"
