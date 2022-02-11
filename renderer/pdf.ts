@@ -67,13 +67,6 @@ export const compilePDF = async (
     });
     result = await page.pdf({
       format: "a4",
-      displayHeaderFooter: true,
-      footerTemplate: await getFooter(resume),
-      headerTemplate: await getHeader(resume),
-      margin: {
-        bottom: "27mm",
-        top: "27mm",
-      },
     });
     await browser.close();
   } catch (e) {
