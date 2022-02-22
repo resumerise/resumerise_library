@@ -300,10 +300,12 @@
       "work": "WORK"
     },
     "labels": {
+      "toc": "Table of Contents",
       "availableFrom": "Available from",
       "updatedOn": "Updated on",
       "mainSkills": "Main skills",
       "otherUrls": "Other urls",
+      "durationLabel": "Dauer",
       "categoryProperty": {
         "award": {
           "website": "Website",
@@ -519,11 +521,12 @@
   ],
   "volunteer": [
     {
-      "endDate": "2015-07-20",
+      "endDate": "2015-08-21",
       "highlights": [
         "Rainforest",
         "Endangered animals"
       ],
+      "durationLabel": "1 Month, 1 day",
       "organization": "The good corp.",
       "position": "CEO",
       "startDate": "2015-07-20",
