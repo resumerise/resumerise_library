@@ -1,0 +1,14 @@
+<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="skill-list-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+    <% if(it.label && it.showLabel) { %>
+        <label class="list__label">
+            <%= it.label %>
+        </label>
+    <% } %>
+    <% if(it.data?.length) { %>
+        <ul class="list__items">
+        <% it.data.forEach(function(item) { %>
+            <li class="list__item"><%= item.name %></li>
+        <% }) %>
+		</ul>
+    <% } %>
+</div>

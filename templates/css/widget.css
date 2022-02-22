@@ -23,6 +23,7 @@ html.INTERACTIVE .content:hover .nav-edit {
     flex-direction: column;
     background-color: aliceblue;
 }
+
 html:not(.INTERACTIVE) .nav-add,
 html:not(.INTERACTIVE) .nav-edit {
     display: none;

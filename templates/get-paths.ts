@@ -34,6 +34,10 @@ export const getWidgetListFilePath = async (): Promise<string> => {
   return await getFileContent("./widgets/list.eta", import.meta.url);
 };
 
+export const getWidgetSkillListFilePath = async (): Promise<string> => {
+  return await getFileContent("./widgets/skills.eta", import.meta.url);
+};
+
 export const getWidgetDateRangeFilePath = async (): Promise<string> => {
   return await getFileContent("./widgets/date-range.eta", import.meta.url);
 };
