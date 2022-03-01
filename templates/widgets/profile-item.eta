@@ -1,16 +1,16 @@
-<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="profile-item<% if(it.classes) { %> <%= it.classes %><% } %>">
-    <% if (it.label && !['facebook', 'twitter', 'linkedin', 'instagram', 'xing', 'behance', 'dribbble', 'medium', 'github'].includes(it.label)) { %>
-        <label class="item__label">
-            <%= it.label %>
-        </label>
-    <% } else { %>
-        <a href="<%= it.url %>" target="_blank">
-            <i class="icon <%= it.label %>"></i>
-            </a>
-    <% } %>
-    <% if (it.value) { %>
+<% if(it.value) { %>
+    <div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="profile-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+        <% if (it.label && !['facebook', 'twitter', 'linkedin', 'instagram', 'xing', 'behance', 'dribbble', 'medium', 'github'].includes(it.label)) { %>
+            <label class="item__label">
+                <%= it.label %>
+            </label>
+        <% } else { %>
+            <a href="<%= it.url %>" target="_blank">
+                <i class="icon <%= it.label %>"></i>
+                </a>
+        <% } %>
         <span class="item__value">
             <%= it.value %>
         </span>
-    <% } %>
-</div>
+    </div>
+<% } %>

@@ -1,14 +1,14 @@
-<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-value-item<% if(it.classes) { %> <%= it.classes %><% } %>">
-    <% if(it.label && it.showLabel) { %>
-        <label class="item__label">
-            <%= it.label %>
-        </label>
-    <% } else if(it.iconClass) { %>
-        <i class="icon fa <%= it.iconClass %>"></i>
-    <% } %>
-    <% if(it.value) { %>
+<% if(it.value) { %>
+    <div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-value-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+        <% if(it.label && it.showLabel) { %>
+            <label class="item__label">
+                <%= it.label %>
+            </label>
+        <% } else if(it.iconClass) { %>
+            <i class="icon fa <%= it.iconClass %>"></i>
+        <% } %>
         <span class="item__value">
             <%= it.value %>
         </span>
-    <% } %>
-</div>
+    </div>
+<% } %>

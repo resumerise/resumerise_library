@@ -1,14 +1,14 @@
-<div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-list-item<% if(it.classes) { %> <%= it.classes %><% } %>">
-    <% if(it.label && it.showLabel) { %>
-        <label class="list__label">
-            <%= it.label %>
-        </label>
-    <% } %>
-    <% if(it.data?.length) { %>
+<% if(it.data?.length) { %>
+    <div <% if(it.id) { %>id="<%= it.id %>"<% } %> class="key-list-item<% if(it.classes) { %> <%= it.classes %><% } %>">
+        <% if(it.label && it.showLabel) { %>
+            <label class="list__label">
+                <%= it.label %>
+            </label>
+        <% } %>
         <ul class="list__items">
         <% it.data.forEach(function(item) { %>
             <li class="list__item"><%= item %></li>
         <% }) %>
-		</ul>
-    <% } %>
-</div>
+        </ul>
+    </div>
+<% } %>
