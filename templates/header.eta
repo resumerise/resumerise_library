@@ -1,3 +1,0 @@
-<div style="width: 100%; text-align: center; font-size: 10px; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;">
-    <%= it.resume.basics?.name %>
-</div>

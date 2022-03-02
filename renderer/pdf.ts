@@ -3,41 +3,10 @@ import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
 import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
 import * as stdPath from "https://deno.land/std@0.105.0/path/mod.ts";
-import { getFileContent } from "../mod.ts";
 
 eta.configure({
   views: stdPath.join("views"),
 });
-
-const getFooter = async (resume: Resume): Promise<string> => {
-  try {
-    const result = await eta.render(
-      await getFileContent("../templates/footer.eta", import.meta.url),
-      {
-        resume: resume,
-      },
-    ) as string;
-    return result;
-  } catch (e) {
-    console.log(`Error while compiling footer: ${e}`);
-    return "";
-  }
-};
-
-const getHeader = async (resume: Resume): Promise<string> => {
-  try {
-    const result = await eta.render(
-      await getFileContent("../templates/header.eta", import.meta.url),
-      {
-        resume: resume,
-      },
-    ) as string;
-    return result;
-  } catch (e) {
-    console.log(`Error while compiling footer: ${e}`);
-    return "";
-  }
-};
 
 export const compilePDF = async (
   themePath: string,

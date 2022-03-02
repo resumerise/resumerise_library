@@ -1,7 +1,7 @@
 // use polyfill to load file with file:/// and href://
 import "https://deno.land/x/file_fetch@0.2.0/polyfill.ts";
 import { cache } from "https://deno.land/x/cache@0.2.13/mod.ts";
-import * as path from "std/path/mod.ts";
+import * as path from "https://deno.land/std@0.100.0/path/mod.ts";
 
 export const getFileContent = async (
   filePath: string,
