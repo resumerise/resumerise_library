@@ -34,7 +34,7 @@
     },
     "name": "Jaimie Summerside",
     "phone": "391-867-0210",
-    "picture": "https://res.cloudinary.com/openvita/image/upload/v1634381412/generated_photos_5e68890e6d3b380006f2256f.jpg_chf4hd.jpg",
+    "picture": "https://res.cloudinary.com/resumerise-prod/image/upload/v1634381412/generated_photos_5e68890e6d3b380006f2256f.jpg_chf4hd.jpg",
     "profiles": [
       {
         "network": "linkedin",
@@ -188,7 +188,7 @@
         "name": "Angular",
         "category": "Framework"
       }],
-      "logo": "https://res.cloudinary.com/openvita/image/upload/v1644615598/Logo_-_Discord__28Textless_29_cuc0kf.png",
+      "logo": "https://res.cloudinary.com/resumerise-prod/image/upload/v1644615598/Logo_-_Discord__28Textless_29_cuc0kf.png",
       "present": false,
       "roles": [
         "Frontend Developer",
@@ -216,7 +216,7 @@
         "Realized a CI/CD pipeline in Jenkins"
       ],
       "durationLabel": "3 Years, 5 months, 12 days",
-      "logo": "https://res.cloudinary.com/openvita/image/upload/v1644615743/red-hat-logo-2019_hjpujx.svg",
+      "logo": "https://res.cloudinary.com/resumerise-prod/image/upload/v1644615743/red-hat-logo-2019_hjpujx.svg",
       "present": false,
       "skills": [{
         "name": "Java 11",
@@ -546,7 +546,7 @@
       "durationLabel": "1 Years, 1 Month, 1 day",
       "position": "Software-Developer",
       "present": false,
-      "logo": "https://res.cloudinary.com/openvita/image/upload/v1644615789/1687px-Gnomelogo.svg_caedvh.png",
+      "logo": "https://res.cloudinary.com/resumerise-prod/image/upload/v1644615789/1687px-Gnomelogo.svg_caedvh.png",
       "startDate": "2014-07-20",
       "summary": "It was an enlightening time and I learned a lot. I was able to contribute my experience to the satisfaction of the customer.",
       "website": "http://buzzster-na.com",
@@ -560,7 +560,7 @@
         "Setup k8s"
       ],
       "durationLabel": "7 Months, 1 day",
-      "logo": "https://res.cloudinary.com/openvita/image/upload/v1644615847/Spotify-Icon-Logo.wine_kkcf25.svg",
+      "logo": "https://res.cloudinary.com/resumerise-prod/image/upload/v1644615847/Spotify-Icon-Logo.wine_kkcf25.svg",
       "position": "Software-Developer",
       "present": false,
       "startDate": "2013-07-20",
@@ -576,7 +576,7 @@
         "Implementing a Sign-In form",
         "Integrating AWS for IAM"
       ],
-      "logo": "https://res.cloudinary.com/openvita/image/upload/v1644615895/mysql-official_yynkhy.svg",
+      "logo": "https://res.cloudinary.com/resumerise-prod/image/upload/v1644615895/mysql-official_yynkhy.svg",
       "position": "Web-Developer",
       "present": false,
       "startDate": "2012-07-20",
