@@ -1,8 +1,8 @@
 import puppeteer from "https://deno.land/x/puppeteer@9.0.2/mod.ts";
 import { Resume } from "../codegen/model/resume.ts";
 import { compileHTML } from "./html.ts";
-import * as eta from "https://deno.land/x/eta@v1.6.0/mod.ts";
-import * as stdPath from "https://deno.land/std@0.105.0/path/mod.ts";
+import * as eta from "https://deno.land/x/eta@v1.12.3/mod.ts";
+import * as stdPath from "https://deno.land/std@0.136.0/path/mod.ts";
 
 eta.configure({
   views: stdPath.join("views"),
